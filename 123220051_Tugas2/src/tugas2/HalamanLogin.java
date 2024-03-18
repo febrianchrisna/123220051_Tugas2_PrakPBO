@@ -93,7 +93,7 @@ public class HalamanLogin extends JFrame implements ActionListener {
                 if(lihatPw.isSelected()){
                 inputPw.setEchoChar((char)0);
             }else{
-                
+                inputPw.setEchoChar('*');
             }   
         }else if(e.getSource() == tombolLogin){
         try {
